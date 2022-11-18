@@ -2,7 +2,7 @@ package com.yasserakbbach.noteapp.domain.note
 
 import com.yasserakbbach.noteapp.domain.time.DateTimeUtil
 
-class FilterNotesUseCase {
+class SearchNotesUseCase {
 
     fun execute(notes: List<Note>, query: String): List<Note> {
         if(query.isBlank()) {
