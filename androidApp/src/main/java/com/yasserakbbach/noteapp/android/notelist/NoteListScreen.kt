@@ -25,6 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import com.yasserakbbach.noteapp.android.navigation.Route
 
 @ExperimentalFoundationApi
 @Composable
@@ -42,7 +43,7 @@ fun NoteListScreen(
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
-                    navController.navigate("note_detail/-1L")
+                    navController.navigate(Route.NoteDetail.navigateWithNoteId(-1L))
                 },
                 backgroundColor = Color.Black,
             ) {
@@ -96,7 +97,7 @@ fun NoteListScreen(
                         note = note,
                         backgroundColor = Color(note.colorHex),
                         onNoteClick = {
-                            navController.navigate("note_detail/${note.id}")
+                            navController.navigate(Route.NoteDetail.navigateWithNoteId(note.id!!))
                         },
                         onDeleteClick = {
                             viewModel.deleteNoteById(note.id!!)
