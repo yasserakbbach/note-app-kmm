@@ -13,6 +13,7 @@
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 		FC9BEF5B293952DD00571EFA /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9BEF5A293952DD00571EFA /* NoteListViewModel.swift */; };
 		FC9BEF5D2939533800571EFA /* NoteListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9BEF5C2939533800571EFA /* NoteListScreen.swift */; };
+		FC9BEF5F293958C600571EFA /* HideableSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9BEF5E293958C600571EFA /* HideableSearchTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9BEF5A293952DD00571EFA /* NoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
 		FC9BEF5C2939533800571EFA /* NoteListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListScreen.swift; sourceTree = "<group>"; };
+		FC9BEF5E293958C600571EFA /* HideableSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideableSearchTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				FC9BEF5A293952DD00571EFA /* NoteListViewModel.swift */,
 				FC9BEF5C2939533800571EFA /* NoteListScreen.swift */,
+				FC9BEF5E293958C600571EFA /* HideableSearchTextField.swift */,
 			);
 			path = notelist;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				FC9BEF5D2939533800571EFA /* NoteListScreen.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				FC9BEF5B293952DD00571EFA /* NoteListViewModel.swift in Sources */,
+				FC9BEF5F293958C600571EFA /* HideableSearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
