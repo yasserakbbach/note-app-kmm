@@ -6,6 +6,9 @@ Simple Note App was built using `KMM` with `Clean Architecture` following [Phili
 * For **Database**: `SQLDelight`.
 
 ## Demo
+https://user-images.githubusercontent.com/21147033/205197869-803d3121-b4be-4393-817e-331d6a0ebfbc.mp4
+
+
 
 ## Android Composables
 
